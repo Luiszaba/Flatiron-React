@@ -4,10 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      This is the page
+    <div className="container-fluid">
+      <div className="row title justify-content-center" style={{ paddingTop: '12px' }}>
+        <h1></h1>
+        </div>
     </div>
-  );
+  )
 }
 
 export default App;
