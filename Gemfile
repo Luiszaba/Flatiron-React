@@ -19,8 +19,9 @@ gem 'puma', '~> 3.11'
 # Active Model Serializer
 gem 'active_model_serializers'
 
-# jwt for authentication
+# jwt for authentication needs dotenv to function properly
 gem 'jwt'
+gem 'dotenv-rails'
 
 
 # Use Active Storage variant
@@ -33,7 +34,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'foreman'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

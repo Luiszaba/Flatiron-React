@@ -70,6 +70,8 @@ GEM
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     dotenv (0.7.0)
+    dotenv-rails (0.7.0)
+      dotenv (= 0.7.0)
     erubi (1.8.0)
     ffi (1.11.1)
     foreman (0.64.0)
@@ -104,6 +106,7 @@ GEM
     pg (1.1.4)
     puma (3.12.1)
     rack (2.0.7)
+    rack-cors (1.0.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.0.rc1)
@@ -164,11 +167,13 @@ DEPENDENCIES
   active_model_serializers
   bootsnap (>= 1.4.2)
   byebug
+  dotenv-rails
   foreman
   jwt
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
+  rack-cors
   rails (~> 6.0.0.rc1)
   spring
   spring-watcher-listen (~> 2.0.0)
